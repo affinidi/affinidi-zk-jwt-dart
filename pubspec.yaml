@@ -1,0 +1,56 @@
+name: zk_jwt
+description: >-
+  Selective Disclosure JWT with a ZK-friendly Poseidon hash, backed by
+  prebuilt Rust native binaries. No Rust toolchain required to consume it.
+version: 0.1.0
+repository: https://github.com/affinidi/affinidi-zk-jwt-dart
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  code_assets: ^1.0.0
+  crypto: ^3.0.6
+  ffi: ^2.0.1
+  hooks: ^1.0.2
+  path: ^1.9.0
+dev_dependencies:
+  coverage: ^1.11.1
+  dart_flutter_team_lints: ^3.5.2
+  melos: ^7.0.0
+  test: ^1.31.0
+
+topics:
+  - jwt
+  - sd-jwt
+  - zero-knowledge
+  - poseidon
+  - credentials
+
+command:
+  version:
+    changelogCommitBodies:
+      include: true
+      onlyBreaking: false
+
+melos:
+  name: zk_jwt
+  useRootAsPackage: true
+  scripts:
+    test:
+      name: test
+      description: "test with coverage"
+      exec: dart run coverage:test_with_coverage
+      dirExists: test
+      concurrency: 4
+      failFast: true
+      noSelect: true
+    analyze:
+      exec: dart analyze .
+      concurrency: 4
+      failFast: true
+      noSelect: true
+      packageFilters:
+        flutter: false
+        includePrivatePackages: false
+        diff: 'origin/main'

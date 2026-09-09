@@ -1,0 +1,12 @@
+name: release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  dart-pipeline:
+    uses: affinidi/pipeline-dart/.github/workflows/release.yaml@feat/dart_template
+    secrets: inherit
+    with:
+      dry-run: true
+      flutter-version: 3.38.1

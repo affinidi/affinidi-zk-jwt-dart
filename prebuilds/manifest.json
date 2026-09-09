@@ -1,0 +1,50 @@
+{
+  "aarch64-apple-darwin": {
+    "sha256": "fdfb409f317cfba28895d87b7e60a07b0b96710d62f4102a3a63a71b75a63765",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-18f54bcfcf4609ed3f8e8f9f0c603ff8df4f9193a08000e00d4bac018b790f5b/rust_eddsa_helper-aarch64-apple-darwin.dylib"
+  },
+  "aarch64-apple-ios": {
+    "sha256": "7fe0f5cabb1bf32bb47a4d768fdbca920250afb383a05fe85d8883734b4466b6",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-18f54bcfcf4609ed3f8e8f9f0c603ff8df4f9193a08000e00d4bac018b790f5b/rust_eddsa_helper-aarch64-apple-ios.dylib"
+  },
+  "aarch64-apple-ios-sim": {
+    "sha256": "d7afe266601564520b5f2d20664fe188105663c3d4fdf94300be2257903c5c12",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-18f54bcfcf4609ed3f8e8f9f0c603ff8df4f9193a08000e00d4bac018b790f5b/rust_eddsa_helper-aarch64-apple-ios-sim.dylib"
+  },
+  "aarch64-linux-android": {
+    "sha256": "23999646d282277f1d0ea0ce7175a6ad2fdf0bae89ee74c5ac42829a00375153",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-18f54bcfcf4609ed3f8e8f9f0c603ff8df4f9193a08000e00d4bac018b790f5b/rust_eddsa_helper-aarch64-linux-android.so"
+  },
+  "armv7-linux-androideabi": {
+    "sha256": "0153bee1885b719e5f465a64a5db281596c3fa01b1399939684f6872e9ced2dd",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-18f54bcfcf4609ed3f8e8f9f0c603ff8df4f9193a08000e00d4bac018b790f5b/rust_eddsa_helper-armv7-linux-androideabi.so"
+  },
+  "i686-linux-android": {
+    "sha256": "a765124537aac4d1f4613dc2c17cdd0338dd7d925473f15643198dc002e67051",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-18f54bcfcf4609ed3f8e8f9f0c603ff8df4f9193a08000e00d4bac018b790f5b/rust_eddsa_helper-i686-linux-android.so"
+  },
+  "x86_64-apple-darwin": {
+    "sha256": "aafff6b2da2a6ac340029a1bfc2fa5fdd953d94bbd005dc957db157f18c8fa70",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-18f54bcfcf4609ed3f8e8f9f0c603ff8df4f9193a08000e00d4bac018b790f5b/rust_eddsa_helper-x86_64-apple-darwin.dylib"
+  },
+  "x86_64-apple-ios": {
+    "sha256": "7ee70c2e52392f7dcdab2810779a1c4ccfc7c10bbf25f1b785af4c3578ebf243",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-18f54bcfcf4609ed3f8e8f9f0c603ff8df4f9193a08000e00d4bac018b790f5b/rust_eddsa_helper-x86_64-apple-ios.dylib"
+  },
+  "x86_64-linux-android": {
+    "sha256": "8fef926e3c7ae626d5b1887f7660ceb731a553f75ced38806168f7d2bfc01b7b",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-18f54bcfcf4609ed3f8e8f9f0c603ff8df4f9193a08000e00d4bac018b790f5b/rust_eddsa_helper-x86_64-linux-android.so"
+  },
+  "aarch64-unknown-linux-gnu": {
+    "sha256": "af401deee670eba92d388c73c3c3b56fc37ff467dfd9fc2b69dc8f677b071578",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-325fa6e85d401533765474960336e2da70e98bc72e5c60e7fb90d43743938123/rust_eddsa_helper-aarch64-unknown-linux-gnu.so"
+  },
+  "x86_64-pc-windows-gnu": {
+    "sha256": "8119653a335d12193612c761b77e221afdbc0cc3ca20f94fb94478b1422883b5",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-325fa6e85d401533765474960336e2da70e98bc72e5c60e7fb90d43743938123/rust_eddsa_helper-x86_64-pc-windows-gnu.dll"
+  },
+  "x86_64-unknown-linux-gnu": {
+    "sha256": "1625fe17a670ff0e2c7237744db6997c29e074533c3d9886ab75fba07ceb9205",
+    "url": "https://github.com/affinidi/affinidi-zkp-crypto-rs/releases/download/prebuilds-325fa6e85d401533765474960336e2da70e98bc72e5c60e7fb90d43743938123/rust_eddsa_helper-x86_64-unknown-linux-gnu.so"
+  }
+}
