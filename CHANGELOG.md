@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2026-10-01
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`zk_jwt` - `v0.1.1`](#zk_jwt---v011)
+
+---
+
+#### `zk_jwt` - `v0.1.1`
+
+ - **FEAT**: implement zk-jwt-dart protocol.
+
+## 0.1.1
+
+ - **FEAT**: implement zk-jwt-dart protocol.
+
+
 ## 0.1.0
 
  - **FEAT**: initial Dart-only release of `zk_jwt`.
