@@ -2,7 +2,7 @@ name: zk_jwt
 description: >-
   Selective Disclosure JWT with a ZK-friendly Poseidon hash, backed by
   prebuilt Rust native binaries. No Rust toolchain required to consume it.
-version: 0.1.0
+version: 1.0.0
 repository: https://github.com/affinidi/affinidi-zk-jwt-dart
 
 environment:
